@@ -1,11 +1,10 @@
 alert('You have opened Wetlands portal')
-console.log('hello console!')
+console.log('Welcome')
 
-var mymap = L.map('map').setView([-19.453915, 29.817312], 7);
+var mymap = L.map('map').setView([-19.453915, 29.817312], 6);
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
    maxZoom: 18,
-   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-  'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+   attribution: 'ZIMBABWE NATIONAL GEOSPATIAL AND SPACE AGENCY',
    id: 'mapbox/streets-v11',
    tileSize: 512,
    zoomOffset: -1
@@ -40,8 +39,44 @@ var wmsLayer = L.Geoserver.wms("http://localhost:8080/geoserver/NationalWetlands
       attribution: 'ZIMBABWE NATIONAL GEOSPATIAL AND SPACE AGENCY 2021'
         }).addTo(mymap);
   
-var wmsLayer2 = L.Geoserver.wms("http://localhost:8080/geoserver/NationalWetlands/wms?", {
+/*var wmsLayer2 = L.Geoserver.wms("http://localhost:8080/geoserver/NationalWetlands/wms?", {
     layers: "NationalWetlands:Final_Fishnets",
       attribution: 'ZIMBABWE NATIONAL GEOSPATIAL AND SPACE AGENCY 2021'
        });
-        wmsLayer2.addTo(mymap);
+        wmsLayer2.addTo(mymap);*/
+
+
+
+        var groupedOverlays = {
+            "Basemaps": {
+                "Mapbox": googleStreets,
+                "OpenStreetMap": googleHybrid,
+                "Mapbox": googleSat,
+                "OpenStreetMap": googleTerrain
+            },
+            "Layers": {
+                "Wetlands": wmsLayer,
+                "Grid": wmsLayer2
+            }
+          };
+          
+          L.control.groupedLayers(baseLayers, groupedOverlays).addTo(mymap);
+        
+
+        var baseLayers = {
+            "Mapbox": googleStreets,
+            "OpenStreetMap": googleHybrid,
+            "Mapbox": googleSat,
+            "OpenStreetMap": googleTerrain
+        };
+        
+        var overlays = {
+            "Wetlands": wmsLayer,
+            "Grid": wmsLayer2
+        };
+        
+        L.control.layers(baseLayers, overlays).addTo(mymap);
+
+$(document).ready(function(){
+    $('.yearJS').text(new Date().getFullYear());
+});

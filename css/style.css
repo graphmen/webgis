@@ -2,6 +2,11 @@ body,html {
 	margin:0;
 	height:100%;
 	width:100%;
+	padding: 1px;
+	border-style: inset;
+	border: 3px solid rgb(247, 247, 248);
+	
+
 }
 
 #map {
@@ -15,23 +20,58 @@ body {
 	grid-template-areas: 
 	"header header"
 	"sidebar content"
-	"footer footer";
+	"footer footer";  
+	
 }
 
 .header {
+
 	grid-area: header;
 	padding:10px;
 	background-color: rgb(38, 62, 143);
 	color: rgb(255, 255, 255);
-	font-size: 2em;
-}
+	text-align: center;
 
+}
 .content {
 	grid-area: content;
 }
-
+ 
 .footer {
 	grid-area: footer;
 	padding:10px;
 	background-color: rgb(38, 62, 143);
+	color: rgb(255, 255, 255);
+	align-content: center;
+
 }
+
+
+  
+  #logo-img {
+	display: flex;
+	align-items: center;
+	color: white;
+	transition: 0.4s;
+  }
+  
+  #logo-img img {
+	height: 70px;
+	width: auto
+  }
+  
+  
+  #menu-icon {
+	height: 100%;
+	font-size: 28px;
+	padding: 0 4px;
+	color: #eee;
+	display: none;
+	align-items: center;
+  }
+  
+ 
+  
+
+  
+  

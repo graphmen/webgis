@@ -1,0 +1,167 @@
+<nav>
+  <label for="drop" class="toggle">&#8801; Menu</label>
+  <input type="checkbox" id="drop" />
+  <ul class="menu">
+    
+    <li> 
+      <!-- First Tier Drop Down -->
+      <label for="drop-1" class="toggle">Service +</label>
+      <a href="#">Service</a>
+      <input type="checkbox" id="drop-1"/>
+      <ul>
+        <li><a href="#">Service 1</a></li>
+        <li><a href="#">Service 2</a></li>
+        <li><a href="#">Service 3</a></li>
+      </ul>
+    </li>
+    <li> 
+      
+      <!-- First Tier Drop Down -->
+      <label for="drop-2" class="toggle">Portfolio </label>
+      <a href="#">Cartgraphic Maps</a>
+      <input type="checkbox" id="drop-2"/>
+      <ul>
+        
+        <li> 
+                    <!-- Second Tier Drop Down -->
+          <label for="drop-3" class="toggle">Bulawayo </label>
+          <a href="#">Bulawayo</a>
+          <input type="checkbox" id="drop-3"/>
+          <ul>
+            <li><a href="#">BULAWAYO</a></li>
+          </ul>
+           
+          <li> 
+                    <!-- Second Tier Drop Down -->
+          <label for="drop-3" class="toggle">Mashonaland East</label>
+          <a href="#">Mash East</a>
+          <input type="checkbox" id="drop-3"/>
+          <ul>
+            <li><a href="#">CHIKOMBA</a></li>
+            <li><a href="#">MARONDERA</a></li>
+            <li><a href="#">HWEDZA</a></li>
+            <li><a href="#">MUTOKO</a></li>
+            <li><a href="#">UMP</a></li>
+            <li><a href="#">SEKE</a></li>
+            <li><a href="#">MUDZI</a></li>
+            <li><a href="#">MUREHWA</a></li>
+            <li><a href="#">GOROMONZI</a></li>
+          </ul>
+            <li> 
+                    <!-- Second Tier Drop Down -->
+          <label for="drop-3" class="toggle">Mashonaland West</label>
+          <a href="#">Mash West</a>
+          <input type="checkbox" id="drop-3"/>
+          <ul>
+            <li><a href="#">HURUNGWE</a></li>
+            <li><a href="#">NGEZI</a></li>
+            <li><a href="#">MHONDORO</a></li>
+            <li><a href="#">CHEGUTU</a></li>
+            <li><a href="#">ZVIMBA</a></li>
+            <li><a href="#">SANYATI</a></li>
+            <li><a href="#">KARIBA</a></li>
+            
+          </ul>
+        </li>
+        <li> 
+                    <!-- Second Tier Drop Down -->
+          <label for="drop-3" class="toggle">Mashonaland Central</label>
+          <a href="#">Mash Central</a>
+          <input type="checkbox" id="drop-3"/>
+          <ul>
+            <li><a href="#">RUSHINGA</a></li>
+            <li><a href="#">MOUNT DARWIN</a></li>
+            <li><a href="#">MBIRE</a></li>
+            <li><a href="#">MAZOWE</a></li>
+            <li><a href="#">GURUVE</a></li>
+            <li><a href="#">BINDURA</a></li>
+            <li><a href="#">CENTINARY</a></li>
+            <li><a href="#">SHAMVA</a></li>
+          </ul>
+        </li>
+        <li> 
+                    <!-- Second Tier Drop Down -->
+          <label for="drop-3" class="toggle">Mat North</label>
+          <a href="#">Mat North</a>
+          <input type="checkbox" id="drop-3"/>
+          <ul>
+            <li><a href="#">UMGUZA</a></li>
+            <li><a href="#">TSHOLOTSHO</a></li>
+            <li><a href="#">NKAYI</a></li>
+            <li><a href="#">LUPANE</a></li>
+            <li><a href="#">HWANGE</a></li>
+            <li><a href="#">BUBI</a></li>
+            <li><a href="#">BINGA</a></li>
+          </ul>
+        </li>
+        <li> 
+                    <!-- Second Tier Drop Down -->
+          <label for="drop-3" class="toggle">Matabeleland South</label>
+          <a href="#">Mat South</a>
+          <input type="checkbox" id="drop-3"/>
+          <ul>
+            <li><a href="#">GWANDA</a></li>
+            <li><a href="#">MATOBO</a></li>
+            <li><a href="#">MANGWE</a></li>
+            <li><a href="#">INSIZA</a></li>
+            <li><a href="#">UMZINGWANE</a></li>
+            <li><a href="#">BEITBRIDGE</a></li>
+            <li><a href="#">BULILIMA</a></li>
+          </ul>
+        </li>
+        <li> 
+                    <!-- Second Tier Drop Down -->
+          <label for="drop-3" class="toggle">Manicaland</label>
+          <a href="#">Manicaland</a>
+          <input type="checkbox" id="drop-3"/>
+          <ul>
+            <li><a href="#">MUTASA</a></li>
+            <li><a href="#">MAKONI</a></li>
+            <li><a href="#">CHIPINGE</a></li>
+            <li><a href="#">CHIMANIMANI</a></li>
+            <li><a href="#">BUHERA</a></li>
+            <li><a href="#">NYANGA</a></li>
+            <li><a href="#">MUTARE</a></li>
+          </ul>
+        </li>
+        <li> 
+                    <!-- Second Tier Drop Down -->
+          <label for="drop-3" class="toggle">Masvingo</label>
+          <a href="#">Masvingo</a>
+          <input type="checkbox" id="drop-3"/>
+          <ul>
+            <li><a href="#">MASVINGO</a></li>
+            <li><a href="#">GUTU</a></li>
+            <li><a href="#">CHIREDZI</a></li>
+            <li><a href="#">BIKITA</a></li>
+            <li><a href="#">CHIVI</a></li>
+            <li><a href="#">ZAKA</a></li>
+            <li><a href="#">MWENENZI</a></li>
+          </ul>
+        </li>
+         </li>
+        <li> 
+                    <!-- Second Tier Drop Down -->
+          <label for="drop-3" class="toggle">Midlands</label>
+          <a href="#">Midlands</a>
+          <input type="checkbox" id="drop-3"/>
+          <ul>
+            <li><a href="#">KWEKWE</a></li>
+            <li><a href="#">GWERU</a></li>
+            <li><a href="#">GOKWE SOUTH</a></li>
+            <li><a href="#">GOKWE NORTH</a></li>
+            <li><a href="#">CHIRUMHANZI</a></li>
+            <li><a href="#">ZVISHAVANE</a></li>
+            <li><a href="#">MBERENGWA</a></li>
+            <li><a href="#">SHURUGWI</a></li>
+          </ul>
+        </li>
+        
+        
+        
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+</h1>

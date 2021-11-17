@@ -28,10 +28,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
                             subdomains:['mt0','mt1','mt2','mt3']
                              }).addTo(mymap);
                             /////Terrain
-                                var googleTerrain = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',{
+                               /* var googleTerrain = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',{
                                         maxZoom: 20,
                                         subdomains:['mt0','mt1','mt2','mt3']
-                                         }).addTo(mymap);
+                                         }).addTo(mymap);*/
 
 
 var wmsLayer = L.Geoserver.wms("http://localhost:8080/geoserver/NationalWetlands/wms?", {
@@ -80,3 +80,4 @@ var wmsLayer = L.Geoserver.wms("http://localhost:8080/geoserver/NationalWetlands
 $(document).ready(function(){
     $('.yearJS').text(new Date().getFullYear());
 });
+

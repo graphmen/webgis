@@ -1,63 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>WETLANDS</title>
-	<meta charset="utf-8" />
-	<meta property="og:image" content="img/zingsa logo.png" />
-	<link rel="icon" href="img/zingsa logo.png">
-   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
-                            <script src="lib/L.Geoserver.js"></script>
-                               <script src="lib/leaflet.legend.js"></script>
-                                  <script src="lib/leaflet.browser.print.js"></script>
-                                     <script src="lib/leaflet.browser.print.min.js"></script>
-                                         <script src="lib/leaflet.browser.print.sizes.js"></script>
-                                            <script src="lib/leaflet.browser.print.utils.js"></script>
-                                              <script src="lib/L.Control.SwitchScaleControl.js>"</script>"
-                                                 <link rel="stylesheet" href="lib/L.Control.SwitchScaleControl.css">
-                                                   <link rel="stylesheet" href="lib/leaflet.legend.css">
-</head>
-</html>
-<!--Plugins and extensions------------------------------------------------------------------------------------------------------------------>
-  									<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-                      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"></script>
-                         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                           <script src="./lib/leaflet.browser.print.min.js"></script>
-                             <script src="lib/L.Geoserver.js"></script>
-                                <script src="lib/leaflet.legend.js"></script>
-                                  <script src="lib/leaflet.browser.print.js"></script>
-                                    <script src="lib/leaflet.browser.print.min.js"></script>
-                                    <script src="lib/L.Control.SwitchScaleControl.js>"</script>"
-                                  <script src="lib/leaflet.browser.print.sizes.js"></script>
-                                <script src="lib/leaflet.browser.print.utils.js"></script>
-                            <script src="lib/leaflet.groupedlayercontrol.js"></script>
-                          <script src="lib/L.Control.HtmlLegend.js"></script>
-                        <link rel="stylesheet" href="lib/leaflet.legend.css">
-                      <link rel="stylesheet" href="lib/leaflet.groupedlayercontrol.css">
-                    <link rel="stylesheet" href="lib/L.Control.HtmlLegend.css">
-                  <link rel="stylesheet" href="lib/L.Control.SwitchScaleControl.css">
-	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
-		}
-		#map {
-			width: 100%;
-			height: 100vh;
-		}
-	</style>
+alert('You have opened Wetlands portal')
+console.log('Welcome')
 
-
-</head>
-<body>
-
-<div id='map'></div>
-
-<script>
-
-	var cities = L.layerGroup();
+var cities = L.layerGroup();
 	var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
 			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 		mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
@@ -148,9 +92,3 @@ L.control.scale({position:"bottomright"}).addTo(map);
 
 
 
-
-</script>
-
-
-</body>
-</html>
